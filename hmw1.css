@@ -1,0 +1,204 @@
+html{
+    font-size: 30px;
+}
+nav a {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-align: center;
+    border:2px solid black;
+    border-color: black;
+   
+    
+    
+  }
+  
+  nav {
+    
+    position:fixed;
+    right:0;
+    left:0;
+    top:0;
+    z-index:3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    font-family: 'Merriweather',sans-serif;
+    height: 80px;
+    font-style:italic;
+    line-height: normal;
+  }
+header{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    flex-direction: column;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    color:white;
+    font-size: 1.1rem;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("sfondo.jpg")
+
+}
+h1{
+   color: white;
+   text-align: center;
+   z-index:1;
+   
+}
+#overlay{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    position:absolute;
+}
+
+body{
+    margin:0;
+    
+}
+#profilo{
+    display:flex;
+    margin:-50px auto 60px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height:max-content;
+    width:200px;
+    z-index:1;
+    flex-direction: column;
+
+}
+#propic{
+    height:100px;
+    width:100px;
+    border:6px solid,wheat ;
+    border-radius: 100px;
+    z-index: 2;
+    
+}
+
+
+#nome{
+    text-align: center;
+    position: relative;
+    top:0;
+    bottom:0;
+    font-size: large;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    bottom: 10px;
+    border: 1px solid;
+    padding: 2%;
+    border-radius: 100px;
+}
+article{
+    
+    display:flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+}
+ section{
+     
+     display: flex;
+
+    margin-bottom: 120px;
+    justify-content: center;
+
+ }
+.numeri {
+    margin-right: 40px;;
+    font-weight: bold;
+
+   
+
+}
+.contenuto{
+    width: 66.67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.sottotitolo{
+    margin-bottom: 20px;
+    color: brown;
+    font-size: 0.85rem;
+    font-family: 'Roboto',sans-serif;
+    font-style: oblique;
+    text-align: left;
+
+    
+}
+.titolo{
+    font-weight: bold;
+    font-family:'Lato',sans-serif;
+    font-style: italic;
+    color:rgba(0, 0, 0, 0.76)
+   
+}
+
+.contenuto p{
+    font-size: 0.7rem;
+    font-family:'Libre Baskerville',sans-serif ;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    font-style: normal;
+    margin-bottom:20px;
+    margin-top:0;
+}
+
+.fotocontenuti{
+    
+    height: 100%;;
+    width:100%;
+    background-size:cover;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    height: 75px;
+    color:white;
+    font-style: normal;
+    font-family: 'Bebas Neue',sans-serif;
+    font-size: 0.6rem;
+
+}
+@media(max-width: 500px){
+  
+    nav{
+        
+       
+    flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        top:20px;
+        font-size:14px;
+
+    }
+    
+    nav a{
+        
+        padding:1.5px,5px;
+    }
+    header h1{
+        font-size:0.9rem ;
+    }
+
+}
